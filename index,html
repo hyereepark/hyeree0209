@@ -1,34 +1,85 @@
-<!doctype.html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>ex</title>
-  </head>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>박혜리의 포트폴리오입니다.</title>
+<style>
+body{margin:0; padding:0; line-height:normal; font-style:normal; font-size:12px; background-image: url(image/bg.jpg); font-family:"굴림", Gulim, verdana ;}
+img{ border:none;}
+fieldset{ border:1px solid #d1d1d1;}
+a{ text-decoration:none;}
+a:hover, a:active, a:focus{text-decoration:none; color:#fff; font-size:12px; font-family:"굴림"}
+label{ cursor:pointer; _cursor /**/:hand;}
+button{ border:none; background:none; cursor:pointer; _cursor /**/:hand;}
+button img{ display:none;}
+ul,ol,li {list-style:none; margin:0; padding:0;}
+table {border-collapse:collapse; border:0; border-spacing:0; empty-cells:show; width:100%; }
+td,th {border:0; }
+table caption {display:none; }
 
 
-  <body>
-    <h1>비교연산자와 블리언</h1>
-    <h3>1===1</h3>
-    <script>
-      document.write(1===1)
-    </script>
-
-    <h3>1===2</h3>
-    <script>
-      document.write(1===2)
-    </script>
-
-    <h3>1&lt;2</h3>
-    <script>
-      document.write(1<2)
-    </script>
-
-    <h3>1&lt;1</h3>
-    <script>
-      document.write(1<1)
-    </script>
-
-  </body>
 
 
+header {
+    color:white;
+    text-align:center;
+    padding:0px; 
+
+    height:350px;
+
+    width:100%; ​
+}
+
+section {
+    width:100%; 
+    height:9450px;
+    text-align:center;
+    align:center;
+    padding:10px; 
+
+}
+footer {
+    background-color:#585858;
+    color:#fff;
+    clear:both;
+    text-align:center;
+    padding-top:25px;    
+
+    height:40px;​
+}
+</style>
+
+
+</head>
+
+<body>
+<header>
+<img src="image/top.jpg" />
+</header>
+
+
+
+
+<section>
+
+<ol>
+    <li><a href="../html_1/main.html" target="_blank" /><img src="image/web1.jpg" /></a></li>
+    <li><a href="../html_2/main.html" target="_blank" /><img src="image/web2.jpg" /></a></li>
+    <li><a href="../html_3/main.html" target="_blank" /><img src="image/web3.jpg" /></a></li>
+    <li><a href="../html_4/index.html" target="_blank" /><img src="image/web4.jpg" /></a></li>
+    <li><a href="image/editorial1.jpg" target="_blank" /><img src="image/edit1.jpg" /></a></li>
+    <li><a href="image/editorial2.jpg" target="_blank" /><img src="image/edit2.jpg" /></a></li>
+    <li><a href="image/editorial3.jpg" target="_blank" /><img src="image/edit3.jpg" /></a></li>
+    <li><a href="image/editorial4.jpg" target="_blank" /><img src="image/edit4.jpg" /></a></li>
+
+</ol>
+
+</section>
+
+<footer>
+design by Park Hye Ree/ hlpark0209@naver.com /H.P 010-3639-8758
+</footer>
+
+
+
+</body>
 </html>
